@@ -29,5 +29,16 @@ namespace ConsoleApp1oop2
 
         //}
         #endregion
+        #region Q2
+        //field: direct data storage,no validation,breaks encapsulation
+        //properity: controlled access,can include validation,encapsulates data
+        //private double w; 
+        //private double h;
+        //public double area
+        //{
+        //    get { return w*h ; }
+            
+        //}
+        #endregion
     }
 }
