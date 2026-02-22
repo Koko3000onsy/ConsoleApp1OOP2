@@ -37,8 +37,42 @@ namespace ConsoleApp1oop2
         //public double area
         //{
         //    get { return w*h ; }
-            
+
         //}
+        #endregion
+        #region Q3
+        //a. indexer : allows objects to be indexed like arrays, useful for collections
+        //,clean syntax for accessing elements ,validate key and handle missing values ,make data in collections dictionary and caches
+        //b. If index 10 is outside the valid range, it will throw an IndexOutOfRangeException at runtime.
+        //To handle this, you can implement error handling in the indexer to check if the index is within the valid range before accessing the element.
+        //If it's out of range, you can throw a custom exception or return a default value.
+        //if (index < 0 || index >= students.Length) print "Index out of range" else return students[index];
+        //c. Yes, you can have multiple indexers in a class, but they must differ in their parameter types or number of parameters to avoid ambiguity.
+        //private list<string> owners=new list<string>();
+        //public string this[int index]
+        //{
+        //    get
+        //    {
+                
+        //        return owners[index];
+        //    }
+        //    set
+        //    {
+              
+        //        owners[index] = value;
+        //    }
+        //}
+        //public string this[string name]
+        //{
+        //    get
+        //    {
+        //        return owners.indexOf(name);
+        //    }
+            
+        //    }
+        //}
+
+
         #endregion
     }
 }
