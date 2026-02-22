@@ -53,12 +53,12 @@ namespace ConsoleApp1oop2
         //{
         //    get
         //    {
-                
+
         //        return owners[index];
         //    }
         //    set
         //    {
-              
+
         //        owners[index] = value;
         //    }
         //}
@@ -68,11 +68,18 @@ namespace ConsoleApp1oop2
         //    {
         //        return owners.indexOf(name);
         //    }
-            
+
         //    }
         //}
 
 
+        #endregion
+        #region Q4
+        //a. static means the member belongs to the class not individual objects,
+        //itself rather than an instance of the class.
+        //b. static : Shared by all objects ,Belongs to the class,Accessed via Order.TotalOrders,Used for global data
+        //item field :Each object has its own copy,Belongs to a specific object,Accessed via object order.Item,Used for object-specific data
+        //no , static members can access only other static members directly, item belongs to specific object.
         #endregion
     }
 }
